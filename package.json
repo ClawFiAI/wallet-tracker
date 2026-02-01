@@ -1,0 +1,23 @@
+{
+  "name": "wallet-tracker",
+  "version": "1.0.0",
+  "description": "Track wallet activity and transactions across multiple blockchains",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": ["wallet", "crypto", "tracker", "ethereum", "solana", "blockchain"],
+  "author": "ClawFi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClawFiAI/wallet-tracker.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.2"
+  }
+}
